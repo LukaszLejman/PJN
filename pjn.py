@@ -3,8 +3,6 @@ import os
 numberOfManuals = 46
 tmpHR = ''
 tmpENG = ''
-en = []
-cr = []
 open('korpus.txt', 'w').close()
 
 for i in range(1, numberOfManuals+1):
